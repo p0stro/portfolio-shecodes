@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #0b4a86;
-  --secondary-color: #b2d3f2;
+  --primary-color: #355165;
+  --secondary-color: #c2d8e8;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Source Serif 4", serif;
 }
@@ -10,6 +10,7 @@ body {
   font-family: var(--default-font-family);
   margin: 0px;
 }
+
 h1 {
   color: var(--primary-color);
   font-family: var(--heading-font-family);
@@ -17,9 +18,23 @@ h1 {
   font-size: 70px;
 }
 
+h2 {
+  font-size: 44pxf;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+.hero h2,
+h3 {
+  color: var(--primary-color);
+}
+
 p {
   font-family: var(--default-font-family);
   font-weight: 400;
+  color: var(--secondary-color);
 }
 
 .hero {
@@ -38,5 +53,48 @@ p {
   background: var(--primary-color);
   color: var(--secondary-color);
 }
-/* font-family: 'Playfair Display', serif;
-font-family: 'Source Serif 4', serif;*/
+
+h4 {
+  color: #b2d3f2;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.row {
+  margin-bottom: 80px;
+}
+
+@media (max-width: 800px) {
+  .hero {
+    padding: 60px 0;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .row {
+    margin-bottom: 20px;
+  }
+  .btn {
+    margin-bottom: 20px;
+  }
+}
