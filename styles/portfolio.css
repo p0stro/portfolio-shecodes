@@ -1,17 +1,42 @@
+:root {
+  --primary-color: #0b4a86;
+  --secondary-color: #b2d3f2;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Source Serif 4", serif;
+}
+
 body {
-  background-color: lightpink;
-  margin: 30px;
+  background-color: var(--primary-color);
+  font-family: var(--default-font-family);
+  margin: 0px;
 }
 h1 {
-  color: blue;
-  font-family: 'Playfair Display', serif;
+  color: var(--primary-color);
+  font-family: var(--heading-font-family);
   font-weight: 800;
   font-size: 70px;
 }
 
 p {
-    font-family: 'Source Serif 4', serif;
-    font-weight: 400;
+  font-family: var(--default-font-family);
+  font-weight: 400;
+}
+
+.hero {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 120px 0;
+}
+
+.btn-branding {
+  background: var(--primary-color);
+  border-radius: 6px;
+  color: var(--secondary-color);
+}
+
+.btn-branding:hover {
+  background: var(--primary-color);
+  color: var(--secondary-color);
 }
 /* font-family: 'Playfair Display', serif;
-font-family: 'Source Serif 4', serif;/*
+font-family: 'Source Serif 4', serif;*/
