@@ -10,7 +10,7 @@ body {
   margin: 0px;
 }
 
-h1 {
+h6 {
   color: var(--secondary-color);
   font-family: var(--default-font-family);
   font-weight: 700;
@@ -20,12 +20,13 @@ h1 {
   -webkit-text-stroke: 0.04em transparent;
 }
 
-h2,
+h1,
 h3 {
   font-weight: 100;
   letter-spacing: -0.03em;
 }
-h2 {
+
+h1 {
   font-size: 51px;
 }
 
@@ -33,7 +34,7 @@ h3 {
   font-size: 44px;
 }
 
-.hero h2,
+.hero h1,
 h3 {
   color: var(--primary-color);
 }
@@ -42,6 +43,7 @@ p {
   font-family: var(--default-font-family);
   font-weight: 400;
   color: var(--primary-color);
+  font-size: 16px;
 }
 
 .hero {
@@ -54,6 +56,7 @@ p {
   border-color: #e05ce2;
   border-radius: 10px;
   color: var(--primary-color);
+  font-size: 16px;
 }
 
 .btn:hover {
@@ -61,6 +64,10 @@ p {
   color: var(--secondary-color);
 }
 
+a {
+  color: #ac51d7;
+  text-decoration: none;
+}
 h4 {
   color: #ac51d7;
 }
@@ -80,17 +87,30 @@ img {
   margin-bottom: 80px;
 }
 
+#about-section h1 {
+  font-size: 64px;
+  color: #ac51d7;
+}
+
+#about-section img {
+  margin: auto;
+}
+
+#about-section .row {
+  margin: 100px;
+}
+
 @media (max-width: 800px) {
   .hero {
     padding: 60px 0;
   }
 
-  h1 {
-    font-size: 44px;
-    -webkit-text-stroke: 0.06em transparent;
+  #about-section h1 {
+    font-size: 32px;
   }
+
   h2 {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   h3 {
@@ -102,6 +122,10 @@ img {
     margin: 40px auto 80px;
     font-size: 22px;
   }
+  h6 {
+    font-size: 44px;
+    -webkit-text-stroke: 0.06em transparent;
+  }
 
   p {
     font-size: 14px;
@@ -112,5 +136,6 @@ img {
   }
   .btn {
     margin-bottom: 20px;
+    font-size: 14px;
   }
 }
