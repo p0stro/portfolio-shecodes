@@ -87,16 +87,16 @@ img {
   margin-bottom: 80px;
 }
 
-#about-section h1 {
+#content-container h1 {
   font-size: 64px;
   color: #ac51d7;
 }
 
-#about-section img {
+#content-container img {
   margin: auto;
 }
 
-#about-section .row {
+#content-container .row {
   margin: 100px;
 }
 
@@ -105,7 +105,7 @@ img {
     padding: 60px 0;
   }
 
-  #about-section h1 {
+  #content-container h1 {
     font-size: 32px;
   }
 
