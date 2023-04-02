@@ -108,6 +108,9 @@ img {
   color: var(--secondary-color);
 }
 
+.content {
+  margin-left: 60px;
+}
 @media (max-width: 800px) {
   .hero {
     padding: 60px 0;
