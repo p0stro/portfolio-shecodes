@@ -79,7 +79,7 @@ h5 {
   font-size: 28px;
 }
 
-img {
+.screen img {
   border-radius: 10px;
 }
 
@@ -111,15 +111,44 @@ img {
 .content {
   margin-left: 60px;
 }
+
+.logo {
+  max-height: 24px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 20px;
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+.active {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
 @media (max-width: 800px) {
   .hero {
     padding: 60px 0;
   }
 
   #content-container h1 {
-    font-size: 32px;
+    font-size: 26px;
   }
-
+  h1 {
+    font-size: 26px;
+  }
   h2 {
     font-size: 22px;
   }
