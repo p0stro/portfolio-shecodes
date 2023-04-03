@@ -138,6 +138,26 @@ nav a:hover,
   font-weight: 700;
 }
 
+footer {
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
+  margin: 180px 0 40px;
+}
+footer .email-link {
+  padding: 12px;
+}
+
+footer .fa-brands {
+  margin: 14px;
+  padding: 6px;
+}
+footer .email-link:hover,
+.fa-brands:hover {
+  background-color: #2250c7;
+  color: var(--secondary-color);
+}
+
 @media (max-width: 800px) {
   .hero {
     padding: 60px 0;
