@@ -68,6 +68,7 @@ a {
   color: #ac51d7;
   text-decoration: none;
 }
+
 h4 {
   color: #ac51d7;
 }
@@ -78,6 +79,7 @@ h5 {
   margin: 80px auto 120px;
   font-size: 28px;
 }
+
 .rounded img {
   border-radius: 10px;
 }
@@ -98,8 +100,9 @@ h5 {
 #content-container .row {
   margin: 100px;
 }
+
 #content-container a {
-  font-size: 22px;
+  font-size: 16px;
   padding: 6px;
 }
 
@@ -152,6 +155,7 @@ footer .fa-brands {
   margin: 14px;
   padding: 6px;
 }
+
 footer .email-link:hover,
 .fa-brands:hover {
   background-color: #2250c7;
@@ -166,6 +170,7 @@ footer .email-link:hover,
   #content-container h1 {
     font-size: 26px;
   }
+
   h1 {
     font-size: 26px;
   }
@@ -182,6 +187,7 @@ footer .email-link:hover,
     margin: 40px auto 80px;
     font-size: 22px;
   }
+
   h6 {
     font-size: 44px;
     -webkit-text-stroke: 0.06em transparent;
@@ -194,6 +200,7 @@ footer .email-link:hover,
   .row {
     margin-bottom: 20px;
   }
+
   .btn {
     margin-bottom: 20px;
     font-size: 14px;
@@ -201,5 +208,8 @@ footer .email-link:hover,
 
   #content-container a {
     font-size: 18px;
+  }
+  #content-container .row {
+    margin: 40px;
   }
 }

@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Paula Reiter is an experienced webdesigner and fron-end developer based in Vienna, Austria. She works with Figma, HTML, CSS and Javascript."
+    />
     <title>Paula Reiter- Webdesigner</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -31,21 +35,24 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="images/logo.svg" class="logo d-none d-md-block" alt="Logo"
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.svg"
+            class="logo d-none d-md-block"
+            alt="Initials logo"
         /></a>
         <ul>
           <li class="active">
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Paula">About</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="Paula's work">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Paula">Contact</a>
           </li>
         </ul>
       </nav>
@@ -55,7 +62,7 @@
       <h6>Paula Reiter</h6>
       <h1 class="mb-4">Webdesigner from Vienna</h1>
 
-      <a href="#" class="btn mt-4">Contact me</a>
+      <a href="/contact.html" class="btn mt-4" title="Contact me">Contact me</a>
     </div>
     <h5 class="text-center">My latest projects</h5>
     <div class="container">
@@ -64,7 +71,7 @@
           <img
             src="/images/cakeup.png"
             class="img-fluid rounded"
-            alt="Snippet of a bakery homepage"
+            alt="Bakery homepage preview"
           />
         </div>
         <div class="col">
@@ -75,7 +82,7 @@
             website will serve as a platform for the bakery to showcase their
             products, services, and brand to a wider audience.
           </p>
-          <a href="#" class="btn mt-4">Learn more</a>
+          <a href="/work.html" class="btn mt-4">Learn more</a>
         </div>
       </div>
       <div class="row">
@@ -87,13 +94,13 @@
             users to view current weather conditions such as temperature, wind
             and humidity.
           </p>
-          <a href="#" class="btn mt-4">Learn more</a>
+          <a href="/work.html" class="btn mt-4">Learn more</a>
         </div>
         <div class="col d-none d-md-block">
           <img
             src="/images/weather-app.png"
             class="img-fluid rounded"
-            alt="Snippet from website of a teacher"
+            alt="Weather project preview"
           />
         </div>
       </div>
@@ -102,7 +109,7 @@
           <img
             src="/images/teacher.png"
             class="img-fluid rounded"
-            alt="Snippet of a teacher homepage"
+            alt="Teacher's homepage preview"
           />
         </div>
         <div class="col">
@@ -113,16 +120,42 @@
             was created in Figma for the Digital Designer Course in 2022 and
             includes desktop and mobile designs for six pages.
           </p>
-          <a href="#" class="btn mt-4">Learn more</a>
+          <a href="/work.html" class="btn mt-4">Learn more</a>
         </div>
       </div>
       <footer>
-        <a href="mailto:paula@gmail.com" class="email-link">paula@gmail.com</a>
+        <a href="mailto:paula@gmail.com" class="email-link" title="Email me"
+          >paula@gmail.com</a
+        >
         <div class="social-links text-center">
-          <a href=""><i class="fa-brands fa-github"></i></a>
-          <a href=""> <i class="fa-brands fa-instagram"></i></a>
-          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com" target="_blank" title="GitHub Profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            title="Instagram Profile"
+          >
+            <i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            title="LinkedIn Profile"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
         </div>
+        <p>
+          This website was coded by Paula Reiter, and is
+          <a
+            href="https://github.com/p0stro/portfolio-shecodes"
+            target="_blank"
+            title="Go to my GitHub project"
+          >
+            open-sourced.</a
+          >
+          👌
+        </p>
       </footer>
     </div>
   </body>
